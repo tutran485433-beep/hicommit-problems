@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-	int  distance ,cost=0,order_value;
+	int distance,cost=0,order_value;
 		scanf("%d %d",&order_value, &distance);
 		if(order_value<0 || distance<=0)
         	printf("INVALID");
@@ -14,6 +14,6 @@ int main()
     			cost=25000;
     		else if( distance >15)
     			cost=40000;
-		printf("%d",cost);
+    		printf("%d",cost);
 	return 0;
 }
