@@ -8,11 +8,11 @@ int main()
 		else {
           if(order_value>=500000 && distance <15)
         		cost=0;
-        	else if(distance <=5)
+        	else if(distance>0 && distance <=5)
     			cost=15000;
-    		else if(distance <=15)
+    		else if(distance>5 && distance <=15)
     			cost=25000;
-    		else if( distance >15)
+    		else
     			cost=40000;
     		printf("%d",cost);
         }
