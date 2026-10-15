@@ -5,8 +5,8 @@ int main()
 	printf("\nnhap n= ");//kiểm tra
 	scanf("%d",&n);
 	if( n ==0 ||n %2==0)
-		printf("\n%d la so chan",n);
+		printf("chan");
 	else
-			printf("\n%d la so le",n);
+			printf("le");
 	return 0;
 }
