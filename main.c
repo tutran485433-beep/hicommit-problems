@@ -6,7 +6,7 @@ int main()
 		if(order_value<0 || distance<=0)
         	printf("INVALID");
 		else {
-          if(order_value>=500000 || distance <15)
+          if(order_value>=500000 && distance <15)
         		cost=0;
         	else if(distance>0 && distance <=5)
     			cost=15000;
