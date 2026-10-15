@@ -10,6 +10,6 @@ int main()
 	else if(t>=25 && t<35)
 		printf("NONG");
 	else if(t>=35)
-		printf("RAT NONG");
+		printf("RAT_NONG");
 	return 0;
 }
