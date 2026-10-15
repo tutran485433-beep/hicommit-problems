@@ -3,7 +3,7 @@ int main()
 {
 	int  distance ,cost=0,order_value;
 		scanf("%d %d",&order_value, &distance);
-		if(order_valu<0 || distance<=0)
+		if(order_value<0 || distance<=0)
         	printf("INVALID");
 		else 
             if(order_value>=500000 && distance <15)
