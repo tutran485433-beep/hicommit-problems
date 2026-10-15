@@ -10,6 +10,6 @@ int main()
 		max=c;
 	else if (a>b && a>c)
 		max=a;
-	printf("\n%d",max);
+	printf("%d",max);
 	return 0;
 }
