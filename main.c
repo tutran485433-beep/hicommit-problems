@@ -2,6 +2,7 @@
 int main()
 {
 	int t;
+	printf("\nnhap nhiet do hom nay:");
 	scanf("%d",&t);
 	if(t<=15)
 		printf("lanh");
@@ -10,6 +11,6 @@ int main()
 	else if(t>25 && t<=35)
 		printf("nong");
 	else
-		printf("rat_nong");
+		printf("rat nong");
 	return 0;
 }
