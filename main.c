@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main()
 {
-	int a,b,c,i,max;
+	int a,b,c,max;
 	scanf("%d %d %d",&a,&b,&c);
-	max=a;
+	max=0;
 	if(b>a && b>c)
 		max=b;
 	else if(c>b && c>a)
