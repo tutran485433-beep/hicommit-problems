@@ -2,15 +2,13 @@
 int main()
 {
 	int t;
-	printf("\nnhap nhiet do hom nay:");
-	scanf("%d",&t);
 	if(t<=15)
-		printf("lanh");
+		printf("LANH");
 	else if(t>15 && t<=25)
-		printf("mat");
+		printf("MAT");
 	else if(t>25 && t<=35)
-		printf("nong");
+		printf("NONG");
 	else
-		printf("rat nong");
+		printf("RAT NONG");
 	return 0;
 }
