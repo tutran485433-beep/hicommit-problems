@@ -2,7 +2,7 @@
 int main()
 {
 	int distance,cost=0,order_value;
-		scanf("%d %d",&order_value, &distance);
+		scanf("%d %d", &distance, &order_value);
 		if(order_value<0 || distance<=0)
         	printf("INVALID");
 		else {
