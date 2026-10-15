@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main()
 {
-	int  distance ,cost=0,value_order;
-		scanf("%d %d",&value_order, &distance);
-		if(value_order==0 || distance==0)
+	int  distance ,cost=0,order_value;
+		scanf("%d %d",&order_value, &distance);
+		if(order_value==0 || distance==0)
 			printf("invaild");
-		else if(value_order>=50000 && distance <15)
+		else if(order_value>=50000 && distance <15)
 			printf("\nmien phi giao hang");
 		else if( distance >0 || distance <=5)
 			cost=15000;
