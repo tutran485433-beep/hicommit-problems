@@ -3,6 +3,7 @@
 int main() {
   float dtb,drl;
   int hocluc=0,renluyen=0;
+  scanf("%f%f",&dtb,&drl);
   //dtb
   if(dtb>=9.0)
     hocluc=1;//xs
