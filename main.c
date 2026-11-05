@@ -8,7 +8,7 @@ int main() {
     hocluc=1;
   else if(dtb>=8.0 && dtb<9.0)
     hocluc=2;
-  else if(dtb <=7.0 && dtb<8.0)
+  else if(dtb >=7.0 && dtb<8.0)
     hocluc=3;
   else 
     hocluc=0;
