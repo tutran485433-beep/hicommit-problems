@@ -24,7 +24,7 @@ int main() {
   //hocbong
   if(hocluc==1 && renluyen==1)
     printf("HOC_BONG_XUAT_SAC");
-  else if((hocluc==2 &&(renluyen==2 ||renluyen==1)||(hocluc==1 && renluyen==2))
+  else if(hocluc==2 &&(renluyen==2 ||renluyen==1)||(hocluc==1 && renluyen==2))
     printf("HOC_BONG_GIOI");
   else if(hocluc==3 && (renluyen==1 || renluyen==2 || renluyen==3))
     printf("HOC_BONG_KHA");
