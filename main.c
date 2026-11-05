@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-  float dtb, drl;
+  float dtb,drl;
   int hocluc=0,renluyen=0;
   //dtb
   if(dtb>=9.0)
@@ -29,7 +29,7 @@ int main() {
   else if(hocluc==3 && (renluyen==1 || renluyen==2 || renluyen==3))
     printf("HOC_BONG_KHA");
   else if((hocluc==1 || hocluc==2) && renluyen==3)
-     printf("HOC_BONG_KHA");
+    printf("HOC_BONG_KHA");
   else
     printf("KHONG_DAT");
   return 0;
